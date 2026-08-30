@@ -21,8 +21,7 @@ export default function ContactForm({ title = 'Escríbanos', context = '' }) {
     <div className="rounded-sm border border-graphite/10 bg-white/60 p-8">
       <h3 className="font-serif text-2xl text-graphite">{title}</h3>
       <p className="mt-2 text-sm text-graphite/60">
-        Complete el formulario y se abrirá su cliente de correo con el mensaje
-        listo para enviar a {siteConfig.email}.
+        Escríbame sin compromiso y hablemos.
       </p>
 
       <form
