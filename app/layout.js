@@ -1,11 +1,11 @@
-import { Cormorant_Garamond, Manrope } from 'next/font/google';
+import { Fraunces, Manrope } from 'next/font/google';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppButton from '@/components/WhatsAppButton';
 import { siteConfig } from '@/lib/site-config';
 
-const serif = Cormorant_Garamond({
+const serif = Fraunces({
   subsets: ['latin'],
   weight: ['500', '600', '700'],
   variable: '--font-serif',
